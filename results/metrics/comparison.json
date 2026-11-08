@@ -1,0 +1,25 @@
+[
+  {
+    "model": "fastText, h=10",
+    "paper_accuracy_pct": 91.5,
+    "reproduced_accuracy_pct": 91.3,
+    "difference_pp": -0.2,
+    "reproduced_precision_macro_pct": 91.28,
+    "reproduced_recall_macro_pct": 91.3,
+    "reproduced_f1_macro_pct": 91.29,
+    "selected_lr": 0.1,
+    "mean_epoch_time_sec": 5.63
+  },
+  {
+    "model": "fastText, h=10, bigram",
+    "paper_accuracy_pct": 92.5,
+    "reproduced_accuracy_pct": 92.24,
+    "difference_pp": -0.26,
+    "reproduced_precision_macro_pct": 92.22,
+    "reproduced_recall_macro_pct": 92.24,
+    "reproduced_f1_macro_pct": 92.23,
+    "selected_lr": 0.25,
+    "mean_epoch_time_sec": 6.75,
+    "official_fasttext_lib_accuracy_pct": 92.24
+  }
+]

@@ -1,0 +1,82 @@
+2026-11-08 14:23:15 | INFO | Run 'fasttext_h10_bigram': 100,935,450 parameters (93,541 words + 10,000,000 buckets) x 10 + output; train=114000, val=6000, lr0=0.25, epochs=5, batch=16
+2026-11-08 14:23:16 | INFO |   epoch 1 step 500 | lr 0.24648 | train loss 1.3250 | train acc 0.4304
+2026-11-08 14:23:16 | INFO |   epoch 1 step 1000 | lr 0.24297 | train loss 1.0162 | train acc 0.5945
+2026-11-08 14:23:16 | INFO |   epoch 1 step 1500 | lr 0.23945 | train loss 0.8235 | train acc 0.6816
+2026-11-08 14:23:17 | INFO |   epoch 1 step 2000 | lr 0.23595 | train loss 0.7141 | train acc 0.7281
+2026-11-08 14:23:17 | INFO |   epoch 1 step 2500 | lr 0.23244 | train loss 0.6411 | train acc 0.7594
+2026-11-08 14:23:17 | INFO |   epoch 1 step 3000 | lr 0.22894 | train loss 0.5913 | train acc 0.7802
+2026-11-08 14:23:18 | INFO |   epoch 1 step 3500 | lr 0.22543 | train loss 0.5533 | train acc 0.7962
+2026-11-08 14:23:18 | INFO |   epoch 1 step 4000 | lr 0.22192 | train loss 0.5243 | train acc 0.8081
+2026-11-08 14:23:19 | INFO |   epoch 1 step 4500 | lr 0.21841 | train loss 0.5002 | train acc 0.8178
+2026-11-08 14:23:19 | INFO |   epoch 1 step 5000 | lr 0.21488 | train loss 0.4819 | train acc 0.8251
+2026-11-08 14:23:19 | INFO |   epoch 1 step 5500 | lr 0.21138 | train loss 0.4652 | train acc 0.8319
+2026-11-08 14:23:20 | INFO |   epoch 1 step 6000 | lr 0.20788 | train loss 0.4509 | train acc 0.8376
+2026-11-08 14:23:20 | INFO |   epoch 1 step 6500 | lr 0.20440 | train loss 0.4369 | train acc 0.8430
+2026-11-08 14:23:20 | INFO |   epoch 1 step 7000 | lr 0.20090 | train loss 0.4257 | train acc 0.8473
+2026-11-08 14:23:20 | INFO | Epoch 1/5 | train loss 0.4237 acc 0.8481 | val loss 0.2868 acc 0.9007 | 5.2s
+2026-11-08 14:23:22 | INFO |   epoch 2 step 7500 | lr 0.19736 | train loss 0.1729 | train acc 0.9415
+2026-11-08 14:23:22 | INFO |   epoch 2 step 8000 | lr 0.19386 | train loss 0.1767 | train acc 0.9429
+2026-11-08 14:23:22 | INFO |   epoch 2 step 8500 | lr 0.19035 | train loss 0.1739 | train acc 0.9434
+2026-11-08 14:23:23 | INFO |   epoch 2 step 9000 | lr 0.18685 | train loss 0.1756 | train acc 0.9432
+2026-11-08 14:23:23 | INFO |   epoch 2 step 9500 | lr 0.18334 | train loss 0.1727 | train acc 0.9443
+2026-11-08 14:23:24 | INFO |   epoch 2 step 10000 | lr 0.17982 | train loss 0.1713 | train acc 0.9441
+2026-11-08 14:23:24 | INFO |   epoch 2 step 10500 | lr 0.17632 | train loss 0.1718 | train acc 0.9437
+2026-11-08 14:23:26 | INFO |   epoch 2 step 11000 | lr 0.17281 | train loss 0.1733 | train acc 0.9433
+2026-11-08 14:23:26 | INFO |   epoch 2 step 11500 | lr 0.16930 | train loss 0.1737 | train acc 0.9431
+2026-11-08 14:23:27 | INFO |   epoch 2 step 12000 | lr 0.16577 | train loss 0.1744 | train acc 0.9428
+2026-11-08 14:23:27 | INFO |   epoch 2 step 12500 | lr 0.16225 | train loss 0.1740 | train acc 0.9429
+2026-11-08 14:23:28 | INFO |   epoch 2 step 13000 | lr 0.15876 | train loss 0.1737 | train acc 0.9428
+2026-11-08 14:23:28 | INFO |   epoch 2 step 13500 | lr 0.15526 | train loss 0.1737 | train acc 0.9427
+2026-11-08 14:23:28 | INFO |   epoch 2 step 14000 | lr 0.15175 | train loss 0.1733 | train acc 0.9428
+2026-11-08 14:23:29 | INFO | Epoch 2/5 | train loss 0.1734 acc 0.9427 | val loss 0.2954 acc 0.9007 | 7.1s
+2026-11-08 14:23:30 | INFO |   epoch 3 step 14500 | lr 0.14826 | train loss 0.0924 | train acc 0.9708
+2026-11-08 14:23:30 | INFO |   epoch 3 step 15000 | lr 0.14475 | train loss 0.0957 | train acc 0.9711
+2026-11-08 14:23:30 | INFO |   epoch 3 step 15500 | lr 0.14123 | train loss 0.0975 | train acc 0.9705
+2026-11-08 14:23:31 | INFO |   epoch 3 step 16000 | lr 0.13772 | train loss 0.0989 | train acc 0.9699
+2026-11-08 14:23:31 | INFO |   epoch 3 step 16500 | lr 0.13422 | train loss 0.0987 | train acc 0.9700
+2026-11-08 14:23:31 | INFO |   epoch 3 step 17000 | lr 0.13071 | train loss 0.0991 | train acc 0.9698
+2026-11-08 14:23:32 | INFO |   epoch 3 step 17500 | lr 0.12721 | train loss 0.0990 | train acc 0.9695
+2026-11-08 14:23:32 | INFO |   epoch 3 step 18000 | lr 0.12372 | train loss 0.0985 | train acc 0.9697
+2026-11-08 14:23:33 | INFO |   epoch 3 step 18500 | lr 0.12020 | train loss 0.0977 | train acc 0.9700
+2026-11-08 14:23:33 | INFO |   epoch 3 step 19000 | lr 0.11671 | train loss 0.0982 | train acc 0.9694
+2026-11-08 14:23:33 | INFO |   epoch 3 step 19500 | lr 0.11319 | train loss 0.0977 | train acc 0.9693
+2026-11-08 14:23:34 | INFO |   epoch 3 step 20000 | lr 0.10966 | train loss 0.0972 | train acc 0.9696
+2026-11-08 14:23:34 | INFO |   epoch 3 step 20500 | lr 0.10615 | train loss 0.0971 | train acc 0.9698
+2026-11-08 14:23:34 | INFO |   epoch 3 step 21000 | lr 0.10265 | train loss 0.0971 | train acc 0.9698
+2026-11-08 14:23:35 | INFO | Epoch 3/5 | train loss 0.0969 acc 0.9699 | val loss 0.2420 acc 0.9237 | 5.3s
+2026-11-08 14:23:37 | INFO |   epoch 4 step 21500 | lr 0.09913 | train loss 0.0567 | train acc 0.9895
+2026-11-08 14:23:38 | INFO |   epoch 4 step 22000 | lr 0.09564 | train loss 0.0541 | train acc 0.9873
+2026-11-08 14:23:39 | INFO |   epoch 4 step 22500 | lr 0.09212 | train loss 0.0555 | train acc 0.9869
+2026-11-08 14:23:39 | INFO |   epoch 4 step 23000 | lr 0.08860 | train loss 0.0542 | train acc 0.9872
+2026-11-08 14:23:40 | INFO |   epoch 4 step 23500 | lr 0.08510 | train loss 0.0564 | train acc 0.9859
+2026-11-08 14:23:40 | INFO |   epoch 4 step 24000 | lr 0.08159 | train loss 0.0563 | train acc 0.9858
+2026-11-08 14:23:40 | INFO |   epoch 4 step 24500 | lr 0.07808 | train loss 0.0558 | train acc 0.9859
+2026-11-08 14:23:41 | INFO |   epoch 4 step 25000 | lr 0.07457 | train loss 0.0556 | train acc 0.9858
+2026-11-08 14:23:41 | INFO |   epoch 4 step 25500 | lr 0.07103 | train loss 0.0558 | train acc 0.9857
+2026-11-08 14:23:42 | INFO |   epoch 4 step 26000 | lr 0.06753 | train loss 0.0562 | train acc 0.9854
+2026-11-08 14:23:42 | INFO |   epoch 4 step 26500 | lr 0.06401 | train loss 0.0557 | train acc 0.9856
+2026-11-08 14:23:42 | INFO |   epoch 4 step 27000 | lr 0.06053 | train loss 0.0553 | train acc 0.9856
+2026-11-08 14:23:43 | INFO |   epoch 4 step 27500 | lr 0.05702 | train loss 0.0551 | train acc 0.9856
+2026-11-08 14:23:43 | INFO |   epoch 4 step 28000 | lr 0.05351 | train loss 0.0551 | train acc 0.9856
+2026-11-08 14:23:44 | INFO |   epoch 4 step 28500 | lr 0.05001 | train loss 0.0546 | train acc 0.9858
+2026-11-08 14:23:44 | INFO | Epoch 4/5 | train loss 0.0546 acc 0.9858 | val loss 0.2487 acc 0.9253 | 7.2s
+2026-11-08 14:23:47 | INFO |   epoch 5 step 29000 | lr 0.04649 | train loss 0.0344 | train acc 0.9931
+2026-11-08 14:23:48 | INFO |   epoch 5 step 29500 | lr 0.04298 | train loss 0.0357 | train acc 0.9930
+2026-11-08 14:23:48 | INFO |   epoch 5 step 30000 | lr 0.03947 | train loss 0.0350 | train acc 0.9933
+2026-11-08 14:23:48 | INFO |   epoch 5 step 30500 | lr 0.03596 | train loss 0.0352 | train acc 0.9932
+2026-11-08 14:23:50 | INFO |   epoch 5 step 31000 | lr 0.03247 | train loss 0.0356 | train acc 0.9931
+2026-11-08 14:23:51 | INFO |   epoch 5 step 31500 | lr 0.02896 | train loss 0.0363 | train acc 0.9930
+2026-11-08 14:23:52 | INFO |   epoch 5 step 32000 | lr 0.02545 | train loss 0.0361 | train acc 0.9929
+2026-11-08 14:23:52 | INFO |   epoch 5 step 32500 | lr 0.02192 | train loss 0.0356 | train acc 0.9931
+2026-11-08 14:23:52 | INFO |   epoch 5 step 33000 | lr 0.01842 | train loss 0.0354 | train acc 0.9931
+2026-11-08 14:23:53 | INFO |   epoch 5 step 33500 | lr 0.01492 | train loss 0.0356 | train acc 0.9931
+2026-11-08 14:23:53 | INFO |   epoch 5 step 34000 | lr 0.01141 | train loss 0.0356 | train acc 0.9931
+2026-11-08 14:23:54 | INFO |   epoch 5 step 34500 | lr 0.00792 | train loss 0.0354 | train acc 0.9931
+2026-11-08 14:23:54 | INFO |   epoch 5 step 35000 | lr 0.00440 | train loss 0.0355 | train acc 0.9931
+2026-11-08 14:23:55 | INFO |   epoch 5 step 35500 | lr 0.00088 | train loss 0.0354 | train acc 0.9931
+2026-11-08 14:23:55 | INFO | Epoch 5/5 | train loss 0.0354 acc 0.9931 | val loss 0.2458 acc 0.9255 | 8.9s
+2026-11-08 14:24:05 | INFO | Saved /content/fasttext-text-classification-reproduction/results/figures/fasttext_h10_bigram_train_loss.png
+2026-11-08 14:24:05 | INFO | Saved /content/fasttext-text-classification-reproduction/results/figures/fasttext_h10_bigram_val_loss.png
+2026-11-08 14:24:05 | INFO | Saved /content/fasttext-text-classification-reproduction/results/figures/fasttext_h10_bigram_loss.png
+2026-11-08 14:24:05 | INFO | Saved /content/fasttext-text-classification-reproduction/results/figures/fasttext_h10_bigram_accuracy.png
+2026-11-08 14:24:05 | INFO | Done. Final model: /content/drive/MyDrive/fasttext-text-classification-reproduction_artifacts/checkpoints/fasttext_h10_bigram/final.pt

@@ -1,0 +1,3 @@
+model,paper_accuracy_pct,reproduced_accuracy_pct,difference_pp,reproduced_precision_macro_pct,reproduced_recall_macro_pct,reproduced_f1_macro_pct,selected_lr,mean_epoch_time_sec,official_fasttext_lib_accuracy_pct
+"fastText, h=10",91.5,91.3,-0.2,91.28,91.3,91.29,0.1,5.63,
+"fastText, h=10, bigram",92.5,92.24,-0.26,92.22,92.24,92.23,0.25,6.75,92.24

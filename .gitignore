@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Data (downloaded / regenerated automatically)
+data/raw/
+data/processed/
+
+# Model weights (~0.4 GB per bigram model) - keep only the folder
+checkpoints/*
+!checkpoints/.gitkeep
+
+# Temporary files from atomic writes
+*.tmp
+
+# Secrets - never commit credentials
+.env
+*.token
+.git-credentials
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

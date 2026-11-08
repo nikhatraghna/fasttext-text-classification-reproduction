@@ -1,0 +1,86 @@
+{
+  "accuracy": 0.9223684210526316,
+  "error_rate": 0.07763157894736838,
+  "precision_macro": 0.9222729862220763,
+  "recall_macro": 0.9223684210526316,
+  "f1_macro": 0.9222831194276963,
+  "precision_weighted": 0.9222729862220764,
+  "recall_weighted": 0.9223684210526316,
+  "f1_weighted": 0.9222831194276963,
+  "per_class": [
+    {
+      "class": "World",
+      "precision": 0.93425975414217,
+      "recall": 0.92,
+      "f1": 0.9270750464067886,
+      "support": 1900
+    },
+    {
+      "class": "Sports",
+      "precision": 0.9627136198860694,
+      "recall": 0.978421052631579,
+      "f1": 0.9705037849125555,
+      "support": 1900
+    },
+    {
+      "class": "Business",
+      "precision": 0.8887728459530027,
+      "recall": 0.8957894736842106,
+      "f1": 0.892267365661861,
+      "support": 1900
+    },
+    {
+      "class": "Sci/Tech",
+      "precision": 0.9033457249070632,
+      "recall": 0.8952631578947369,
+      "f1": 0.8992862807295797,
+      "support": 1900
+    }
+  ],
+  "confusion_matrix": [
+    [
+      1748,
+      40,
+      65,
+      47
+    ],
+    [
+      19,
+      1859,
+      15,
+      7
+    ],
+    [
+      58,
+      12,
+      1702,
+      128
+    ],
+    [
+      46,
+      20,
+      133,
+      1701
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n       World     0.9343    0.9200    0.9271      1900\n      Sports     0.9627    0.9784    0.9705      1900\n    Business     0.8888    0.8958    0.8923      1900\n    Sci/Tech     0.9033    0.8953    0.8993      1900\n\n    accuracy                         0.9224      7600\n   macro avg     0.9223    0.9224    0.9223      7600\nweighted avg     0.9223    0.9224    0.9223      7600\n",
+  "feature_pipeline_agreement": 1.0,
+  "run_name": "official_fasttext_bigram",
+  "lr": 0.25,
+  "total_train_time_sec": 5.706595628999821,
+  "mean_epoch_time_sec": 1.1413191257999642,
+  "threads": 2,
+  "fasttext_version": "0.9.3",
+  "environment": {
+    "python": "3.13.18",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "processor": "x86_64",
+    "cpu_count": 2,
+    "torch": "2.14.1+cpu",
+    "torch_threads": 1,
+    "numpy": "2.4.6",
+    "cuda_available": false,
+    "cpu_model": "AMD EPYC 7B12",
+    "mem_total": "13286932 kB"
+  }
+}

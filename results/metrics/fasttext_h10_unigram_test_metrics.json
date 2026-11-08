@@ -1,0 +1,75 @@
+{
+  "accuracy": 0.9130263157894737,
+  "error_rate": 0.08697368421052631,
+  "precision_macro": 0.9128205707655662,
+  "recall_macro": 0.9130263157894737,
+  "f1_macro": 0.912884663627225,
+  "precision_weighted": 0.9128205707655662,
+  "recall_weighted": 0.9130263157894737,
+  "f1_weighted": 0.912884663627225,
+  "per_class": [
+    {
+      "class": "World",
+      "precision": 0.9205333333333333,
+      "recall": 0.9084210526315789,
+      "f1": 0.9144370860927152,
+      "support": 1900
+    },
+    {
+      "class": "Sports",
+      "precision": 0.9586776859504132,
+      "recall": 0.9768421052631578,
+      "f1": 0.9676746611053181,
+      "support": 1900
+    },
+    {
+      "class": "Business",
+      "precision": 0.8795180722891566,
+      "recall": 0.8836842105263157,
+      "f1": 0.8815962194801785,
+      "support": 1900
+    },
+    {
+      "class": "Sci/Tech",
+      "precision": 0.8925531914893617,
+      "recall": 0.8831578947368421,
+      "f1": 0.8878306878306879,
+      "support": 1900
+    }
+  ],
+  "confusion_matrix": [
+    [
+      1726,
+      47,
+      80,
+      47
+    ],
+    [
+      25,
+      1856,
+      11,
+      8
+    ],
+    [
+      62,
+      12,
+      1679,
+      147
+    ],
+    [
+      62,
+      21,
+      139,
+      1678
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n       World     0.9205    0.9084    0.9144      1900\n      Sports     0.9587    0.9768    0.9677      1900\n    Business     0.8795    0.8837    0.8816      1900\n    Sci/Tech     0.8926    0.8832    0.8878      1900\n\n    accuracy                         0.9130      7600\n   macro avg     0.9128    0.9130    0.9129      7600\nweighted avg     0.9128    0.9130    0.9129      7600\n",
+  "run_name": "fasttext_h10_unigram",
+  "test_loss": 0.26792504762348374,
+  "test_docs": 7600,
+  "inference_time_sec": 0.01063891900003,
+  "word_ngrams": 1,
+  "lr": 0.1,
+  "mean_epoch_time_sec": 5.630263685000045,
+  "total_train_time_sec": 28.151318425000227
+}
